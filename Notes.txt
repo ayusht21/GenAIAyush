@@ -1,0 +1,44 @@
+//conda we need to activate and deactivate if you want to use the venv
+use of \ to continue in next line 
+
+need to understand
+1. venv
+2. conda and anaconda 
+
+Python 
+Lambda function: lambda arguments: expression
+map(function, arguments) -map Function applies the given function to all the items in a list
+filter(function, list) - filter function applies the given function to all items and returns accordingly
+Filter function with multiple conditions
+
+even_greater_than_5 = list(filter(lambda x:x>5 and x%2==0, numbers)) 
+
+
+Standard Library
+IMPORT 
+import math
+from math import sqrt,pi
+import numpy as np
+from math import * - Imports everything
+
+__init__.py is a special file used in python to define packages and initialize their namespaces
+# this file even if empty is required to make it as a package 
+
+Some libraries : array, math, random, os(os.getcwd()) , shutil (copyfile- copies file), 
+Data serialization : import json (dumps - converts json to str, loads - converts str to json or dictionary)
+
+import csv
+datetime and timedelta
+time 
+import re (regular expression)
+  
+working with files
+
+Binary files - wb mode of opening file 
+getcwd - get current path 
+os.path.exists
+os.path.isfile, isdir
+os.path.abspath()- absolute path 
+
+
+
